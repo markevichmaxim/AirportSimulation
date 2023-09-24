@@ -1,0 +1,24 @@
+.table {
+  border: 1px solid darkgray;
+  width: 80%;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.tableHeading {
+  font-size: large;
+}
+
+.tableBody {
+  border-top: 1px solid yellow;
+}
+
+.highlightedRow {
+  background-color: rgba(255, 217, 0, 0.5);
+  transition: background-color 1s;
+}
+
+.rowReset {
+  background-color: white;
+  transition: background-color 1.5s;
+}
